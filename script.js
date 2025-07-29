@@ -109,7 +109,7 @@ function takeCommand(message) {
     }
     else if(message.includes("open calculator")) {
         speak("Opening Calculator for you.");
-        window.open("calculator://");
+        window.open("Calculator://");
     }
     else if (message.includes("time")){
         let time = new Date().toLocaleString(undefined,{hour:"numeric",minute:"numeric"})
