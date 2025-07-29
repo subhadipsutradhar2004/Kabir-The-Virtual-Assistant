@@ -93,7 +93,7 @@ function takeCommand(message) {
     }
     else if(message.includes("open whatsapp")) {
         speak("Opening WhatsApp for you.");
-        window.open("https://www.whatsapp.com","_blank");
+        window.open("WhatsApp://");
     }
     else if(message.includes("open gmail")) {
         speak("Opening Gmail for you.");
