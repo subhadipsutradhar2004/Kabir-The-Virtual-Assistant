@@ -60,7 +60,7 @@ function takeCommand(message) {
         speak("i am fine. how are you?");
     }
     else if(message.includes("kaise ho") || message.includes("kya haal hai") || message.includes("kya haal chaal hai")) {
-        speak("mein badiya. aaap baataayee?");
+        speak("mein badiya. aaap baataayea aap kaise ho?");
     }
     else if(message.includes("thank you") || message.includes("thanks")|| message.includes("thank")) {
         speak("You're welcome! If you need anything else, just ask.");
