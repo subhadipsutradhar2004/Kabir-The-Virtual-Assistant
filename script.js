@@ -77,9 +77,9 @@ function takeCommand(message) {
     // else if(message.includes("mona") || message.includes("mana")) {
     //     speak("mona tomar girlfriend mona.");
     // }
-     else if(message.includes("birthday") || message.includes("wish")) {
-        speak("happy birthday priya boudi. many many happy returns of the day.");
-    }
+    //  else if(message.includes("birthday") || message.includes("wish")) {
+    //     speak("happy birthday priya boudi. many many happy returns of the day.");
+    // }
     else if(message.includes("pratyusha") || message.includes("birthday")) {
         speak("subha janma din pratyusha . many many happy returns of the day. khub khub valo thako");
     }
@@ -141,6 +141,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
