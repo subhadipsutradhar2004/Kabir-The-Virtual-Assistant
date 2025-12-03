@@ -71,12 +71,12 @@ function takeCommand(message) {
     else if(message.includes("arisha") || message.includes("arisa")) {
         speak("you are saying about arisha jamal right?? she is your friend");
     }
-    else if(message.includes("priya") || message.includes("piya")) {
-        speak("priya is your wife cum girlfriend.");
-    }
-    else if(message.includes("mona") || message.includes("mana")) {
-        speak("mona tomar girlfriend mona.");
-    }
+    // else if(message.includes("priya") || message.includes("piya")) {
+    //     speak("priya is your wife cum girlfriend.");
+    // }
+    // else if(message.includes("mona") || message.includes("mana")) {
+    //     speak("mona tomar girlfriend mona.");
+    // }
      else if(message.includes("birthday") || message.includes("wish")) {
         speak("happy birthday priya boudi. many many happy returns of the day.");
     }
@@ -138,6 +138,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
