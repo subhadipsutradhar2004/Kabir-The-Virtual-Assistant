@@ -80,6 +80,9 @@ function takeCommand(message) {
      else if(message.includes("birthday") || message.includes("wish")) {
         speak("happy birthday priya boudi. many many happy returns of the day.");
     }
+    else if(message.includes("pratyusha") || message.includes("birthday")) {
+        speak("subha janma din pratyusha . many many happy returns of the day. khub khub valo thako");
+    }
     else if(message.includes("goodbye") || message.includes("bye")) {
         speak("Goodbye! Have a great day!");
     }
@@ -138,6 +141,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
