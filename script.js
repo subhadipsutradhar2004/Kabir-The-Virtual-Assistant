@@ -68,6 +68,9 @@ function takeCommand(message) {
     else if(message.includes("sukriya") || message.includes("dhanyvad") || message.includes("shukriya")) {
         speak("You're welcome! apko aur kuch zarurat ho, to bata sakte hai.");
     }
+    else if(message.includes("arisha") || message.includes("arisa")) {
+        speak("you are saying about arisha jamal right?? she is your friend");
+    }
     else if(message.includes("goodbye") || message.includes("bye")) {
         speak("Goodbye! Have a great day!");
     }
@@ -126,3 +129,4 @@ function takeCommand(message) {
     }
     
 }
+
