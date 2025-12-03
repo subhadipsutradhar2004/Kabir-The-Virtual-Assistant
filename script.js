@@ -75,7 +75,7 @@ function takeCommand(message) {
         speak("priya is your wife cum girlfriend.");
     }
     else if(message.includes("mona") || message.includes("mana")) {
-        speak("mona is your wife cum girlfriend.");
+        speak("mona tomar girlfriend mona.");
     }
     else if(message.includes("goodbye") || message.includes("bye")) {
         speak("Goodbye! Have a great day!");
@@ -135,5 +135,6 @@ function takeCommand(message) {
     }
     
 }
+
 
 
