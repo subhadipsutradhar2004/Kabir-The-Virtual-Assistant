@@ -71,6 +71,12 @@ function takeCommand(message) {
     else if(message.includes("arisha") || message.includes("arisa")) {
         speak("you are saying about arisha jamal right?? she is your friend");
     }
+    else if(message.includes("priya") || message.includes("piya")) {
+        speak("priya is your wife cum girlfriend.");
+    }
+    else if(message.includes("mona") || message.includes("mana")) {
+        speak("mona is your wife cum girlfriend.");
+    }
     else if(message.includes("goodbye") || message.includes("bye")) {
         speak("Goodbye! Have a great day!");
     }
@@ -129,4 +135,5 @@ function takeCommand(message) {
     }
     
 }
+
 
