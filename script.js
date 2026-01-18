@@ -97,6 +97,12 @@ function takeCommand(message) {
     else if(message.includes("play")) {
         window.open("https://www.youtube.com/watch?v=WWXm39leYew", "_blank");
     }
+    else if(message.includes("zalima")) {
+        window.open("https://www.youtube.com/watch?v=hhdSyBHuI88", "_blank");
+    }
+    else if(message.includes("tum tak")) {
+        window.open("https://www.youtube.com/watch?v=k09uvR5eUao", "_blank");
+    }
     else if(message.includes("facebook")) {
         speak("Opening Facebook for you.");
         window.open("https://www.facebook.com", "_blank");
@@ -144,6 +150,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
