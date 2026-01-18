@@ -97,7 +97,7 @@ function takeCommand(message) {
     else if(message.includes("hua")) {
         window.open("https://www.youtube.com/watch?v=WWXm39leYew", "_blank");
     }
-    else if(message.includes("zalima")) {
+    else if(message.includes("zaalima")) {
         window.open("https://www.youtube.com/watch?v=hhdSyBHuI88", "_blank");
     }
     else if(message.includes("tum tak")) {
@@ -150,6 +150,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
