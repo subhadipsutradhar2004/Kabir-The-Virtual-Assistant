@@ -94,7 +94,7 @@ function takeCommand(message) {
         speak("Opening Google for you.");
         window.open("https://www.google.com", "_blank");
     }
-    else if(message.includes("play")) {
+    else if(message.includes("hua")) {
         window.open("https://www.youtube.com/watch?v=WWXm39leYew", "_blank");
     }
     else if(message.includes("zalima")) {
@@ -150,6 +150,7 @@ function takeCommand(message) {
     }
     
 }
+
 
 
 
